@@ -1,0 +1,2 @@
+# Kotlin `removeIf` Unexpected Behavior
+This repository demonstrates an uncommon bug related to the `removeIf` function in Kotlin when used with mutable lists. Modifying a list while iterating can lead to unexpected results, skipping elements and not removing all intended values. The `bug.kt` file showcases the problem, while `bugSolution.kt` provides a corrected solution.  This bug is subtle and can be hard to track down in larger codebases.
